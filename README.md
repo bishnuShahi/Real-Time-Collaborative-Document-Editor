@@ -1,10 +1,10 @@
 # Project Roadmap
 
 ## Week 1-2: Setup and Backend Basics
-- [ ] Set up local development environment
-- [ ] Initialize Git repository
-- [ ] Set up basic Express.js server
-- [ ] Implement user authentication
+- [x] Set up local development environment
+- [x] Initialize Git repository
+- [x] Set up basic Express.js server
+- [x] Implement user authentication
 - [ ] Create API endpoints for document CRUD operations
 
 ## Week 3-4: Frontend Basics and Integration
