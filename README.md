@@ -5,7 +5,7 @@
 - [x] Initialize Git repository
 - [x] Set up basic Express.js server
 - [x] Implement user authentication
-- [ ] Create API endpoints for document CRUD operations
+- [x] Create API endpoints for document CRUD operations
 
 ## Phase 2: Frontend Basics and Integration
 - [ ] Set up React.js application
