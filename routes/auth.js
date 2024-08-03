@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const User = require('../models/user');
+const User = require('../models/User');
 
 const router = express.Router();
 
@@ -48,7 +48,7 @@ router.post('/login', async (req, res) => {
             return res.status(400).json({ error: 'Username and password are required' });
         }
 
-        const user = User.findOne({ username });
+        const user = await User.findOne({ username });
         if (!user) {
             return res.status(400).json({error: 'User not found'});
         }
@@ -71,6 +71,7 @@ router.post('/login', async (req, res) => {
           }
 
         const token = jwt.sign({ userID: user._id }, process.env.JWT_SECRET, {expiresIn: '1h'});
+        console.log(token);
         res.json({token});
     }
     catch (error) {
