@@ -1,11 +1,11 @@
 # Project Roadmap
 
 ## Phase 1: Setup and Backend Basics
-- [x] Set up local development environment
-- [x] Initialize Git repository
-- [x] Set up basic Express.js server
-- [x] Implement user authentication
-- [ ] Create API endpoints for document CRUD operations
+ -  Set up local development environment :heavy_check_mark:
+ - Initialize Git repository :heavy_check_mark:
+ - Set up basic Express.js server :heavy_check_mark:
+ - Implement user authentication :heavy_check_mark:
+ - Create API endpoints for document CRUD operations :heavy_check_mark:
 
 ## Phase 2: Frontend Basics and Integration
 - [ ] Set up React.js application
